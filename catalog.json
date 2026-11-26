@@ -59,6 +59,180 @@
           }
         }
       }
+    },
+    {
+      "id": "tasks",
+      "names": {
+        "ru": "Задачи",
+        "en": "Tasks"
+      },
+      "description": {
+        "ru": "Расписание установки: что запланировано, когда сработает и что вышло",
+        "en": "The installation's schedule: what is planned, when it runs and what came out"
+      },
+      "category": "tools",
+      "repository": "kirill-scherba/anytext-tasks",
+      "docs": "",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "addr": "127.0.0.1:7850",
+          "args": [
+            "-addr",
+            "127.0.0.1:7850"
+          ],
+          "ui": "ui",
+          "auto_start": true,
+          "assets": {
+            "linux-amd64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/tasks/0.1.0/anytext-tasks-linux-amd64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/tasks/0.1.0/anytext-tasks-linux-amd64",
+              "sha256": "931bdc8500f7ddf0f4177f97385823746705b954e810208af20e15bf6a3f40f9",
+              "size": 9736352
+            },
+            "linux-arm64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/tasks/0.1.0/anytext-tasks-linux-arm64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/tasks/0.1.0/anytext-tasks-linux-arm64",
+              "sha256": "3e7720f6e5adfaf8e941782c73e1a2ddcaa311c0bc01ccb87ee3742bc36d744b",
+              "size": 9109664
+            },
+            "windows-amd64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/tasks/0.1.0/anytext-tasks-windows-amd64.exe",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/tasks/0.1.0/anytext-tasks-windows-amd64.exe",
+              "sha256": "723a580e1cb3bb91afb26ab0016244980e504165582cf256b42796feaec0728b",
+              "size": 10019328
+            },
+            "darwin-arm64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/tasks/0.1.0/anytext-tasks-darwin-arm64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/tasks/0.1.0/anytext-tasks-darwin-arm64",
+              "sha256": "a295562e1e1aaaae0531ce9bcae5cf9b6251716af7438cced5cd917e296a3114",
+              "size": 9294386
+            },
+            "darwin-amd64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/tasks/0.1.0/anytext-tasks-darwin-amd64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/tasks/0.1.0/anytext-tasks-darwin-amd64",
+              "sha256": "d136e722095298558a4f1381e6535b799989bee27af18e8d761378e73a7333d4",
+              "size": 9964064
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "calendar",
+      "names": {
+        "ru": "Календарь",
+        "en": "Calendar"
+      },
+      "description": {
+        "ru": "Календарь из mail-mcp: месяц, неделя, список и редактор событий",
+        "en": "The calendar mail-mcp already owns: a month, a week, a list and an event editor"
+      },
+      "category": "tools",
+      "repository": "kirill-scherba/anytext-calendar",
+      "docs": "",
+      "latest": "0.1.2",
+      "versions": {
+        "0.1.2": {
+          "addr": "127.0.0.1:7840",
+          "args": [
+            "-addr",
+            "127.0.0.1:7840"
+          ],
+          "ui": "ui",
+          "auto_start": true,
+          "assets": {
+            "linux-amd64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/calendar/0.1.2/anytext-calendar-linux-amd64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/calendar/0.1.2/anytext-calendar-linux-amd64",
+              "sha256": "dfa51a06d16c962471011f0378f778577233ead44dac77877f22102c6aad4914",
+              "size": 9789600
+            },
+            "linux-arm64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/calendar/0.1.2/anytext-calendar-linux-arm64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/calendar/0.1.2/anytext-calendar-linux-arm64",
+              "sha256": "416cbb5c8c1378ae20ed48a648907d5cc0008a330b0f9a218b062a8c5e45ee22",
+              "size": 9109664
+            },
+            "windows-amd64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/calendar/0.1.2/anytext-calendar-windows-amd64.exe",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/calendar/0.1.2/anytext-calendar-windows-amd64.exe",
+              "sha256": "b85cabcec9c3ea02952dc729ecdcb326c2b62e41b3e62f39260bd515d5263652",
+              "size": 10073600
+            },
+            "darwin-arm64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/calendar/0.1.2/anytext-calendar-darwin-arm64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/calendar/0.1.2/anytext-calendar-darwin-arm64",
+              "sha256": "f1c1f07aaa35336cf5c0d42c07443d585af0559c61030435eed4131daa9f0d33",
+              "size": 9345010
+            },
+            "darwin-amd64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/calendar/0.1.2/anytext-calendar-darwin-amd64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/calendar/0.1.2/anytext-calendar-darwin-amd64",
+              "sha256": "31f01ec03be76b0bfd2953077dc1b9ec6ac831e84a41f4c89a94f21202024db3",
+              "size": 10018400
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "explorer",
+      "names": {
+        "ru": "Проводник",
+        "en": "Files"
+      },
+      "description": {
+        "ru": "Коллекции и файлы установки: что в поиске, что пропущено и почему",
+        "en": "The collections and files of an installation: what is in the search, what was skipped and why"
+      },
+      "category": "tools",
+      "repository": "kirill-scherba/anytext-explorer",
+      "docs": "",
+      "latest": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "addr": "127.0.0.1:7870",
+          "args": [
+            "-addr",
+            "127.0.0.1:7870"
+          ],
+          "ui": "ui",
+          "auto_start": true,
+          "assets": {
+            "linux-amd64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.0/anytext-explorer-linux-amd64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.0/anytext-explorer-linux-amd64",
+              "sha256": "c625d07b492e06cb9d85cb01a0b077830f5397f3983e89c72b0cfc74f6b5bc90",
+              "size": 9978016
+            },
+            "linux-arm64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.0/anytext-explorer-linux-arm64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.0/anytext-explorer-linux-arm64",
+              "sha256": "33cf1effdae35ae4ebd3e2de014d519f6bd6c23ad04ea1347258c7177ef70e2b",
+              "size": 9306272
+            },
+            "windows-amd64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.0/anytext-explorer-windows-amd64.exe",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.0/anytext-explorer-windows-amd64.exe",
+              "sha256": "6f63fa005857d46d26d43fa80fc33097d0a232a1766a1b44d91453bb5ed06c38",
+              "size": 10266112
+            },
+            "darwin-arm64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.0/anytext-explorer-darwin-arm64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.0/anytext-explorer-darwin-arm64",
+              "sha256": "706e958ba6d0dbf9319e58b873f4e4627f2d745ebe78d0ed700c008d1ebb1b97",
+              "size": 9513346
+            },
+            "darwin-amd64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.0/anytext-explorer-darwin-amd64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.0/anytext-explorer-darwin-amd64",
+              "sha256": "149d4236807ad8093d0a18906d8f595255a9b17c3048ee2934b7bc7b7e6c3f11",
+              "size": 10210000
+            }
+          }
+        }
+      }
     }
   ]
 }
