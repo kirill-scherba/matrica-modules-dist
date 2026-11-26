@@ -3,122 +3,6 @@
   "updated": "2026-11-26",
   "modules": [
     {
-      "id": "gallery",
-      "names": {
-        "ru": "Галерея",
-        "en": "Gallery"
-      },
-      "description": {
-        "ru": "Картинки, статьи и поиск по коллекциям установки",
-        "en": "Pictures, articles and search over the collections"
-      },
-      "category": "media",
-      "repository": "kirill-scherba/anytext-gallery",
-      "docs": "",
-      "latest": "0.6.6",
-      "versions": {
-        "0.6.6": {
-          "addr": "127.0.0.1:7860",
-          "args": [
-            "-addr",
-            "127.0.0.1:7860"
-          ],
-          "ui": "ui",
-          "auto_start": true,
-          "assets": {
-            "linux-amd64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/gallery/0.6.6/anytext-gallery-linux-amd64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/gallery/0.6.6/anytext-gallery-linux-amd64",
-              "sha256": "41a651c2b4bff2db1e43beff45711940de4884124cb03d882dc09c0d851b4c72",
-              "size": 10760352
-            },
-            "linux-arm64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/gallery/0.6.6/anytext-gallery-linux-arm64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/gallery/0.6.6/anytext-gallery-linux-arm64",
-              "sha256": "1059c77a2a0dc73620f891b8646270ae88f4f23883d4046c89bd76d54d23c43c",
-              "size": 9961632
-            },
-            "windows-amd64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/gallery/0.6.6/anytext-gallery-windows-amd64.exe",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/gallery/0.6.6/anytext-gallery-windows-amd64.exe",
-              "sha256": "7bc0d60f0208d065c96df605d321be9e7ae3b267f3f63a2fc88031b76673a95a",
-              "size": 11063296
-            },
-            "darwin-arm64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/gallery/0.6.6/anytext-gallery-darwin-arm64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/gallery/0.6.6/anytext-gallery-darwin-arm64",
-              "sha256": "a05d6e4508fb0b7efeaa9370a5c71a04a1cc871b1c183b44148d53ab45936662",
-              "size": 10271698
-            },
-            "darwin-amd64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/gallery/0.6.6/anytext-gallery-darwin-amd64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/gallery/0.6.6/anytext-gallery-darwin-amd64",
-              "sha256": "761f17c72d6c481ca634c546bf4dbf6d82de8f7d1829f5403c5e8106691aa15e",
-              "size": 11011632
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "tasks",
-      "names": {
-        "ru": "Задачи",
-        "en": "Tasks"
-      },
-      "description": {
-        "ru": "Расписание установки: что запланировано, когда сработает и что вышло",
-        "en": "The installation's schedule: what is planned, when it runs and what came out"
-      },
-      "category": "tools",
-      "repository": "kirill-scherba/anytext-tasks",
-      "docs": "",
-      "latest": "0.1.0",
-      "versions": {
-        "0.1.0": {
-          "addr": "127.0.0.1:7850",
-          "args": [
-            "-addr",
-            "127.0.0.1:7850"
-          ],
-          "ui": "ui",
-          "auto_start": true,
-          "assets": {
-            "linux-amd64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/tasks/0.1.0/anytext-tasks-linux-amd64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/tasks/0.1.0/anytext-tasks-linux-amd64",
-              "sha256": "931bdc8500f7ddf0f4177f97385823746705b954e810208af20e15bf6a3f40f9",
-              "size": 9736352
-            },
-            "linux-arm64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/tasks/0.1.0/anytext-tasks-linux-arm64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/tasks/0.1.0/anytext-tasks-linux-arm64",
-              "sha256": "3e7720f6e5adfaf8e941782c73e1a2ddcaa311c0bc01ccb87ee3742bc36d744b",
-              "size": 9109664
-            },
-            "windows-amd64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/tasks/0.1.0/anytext-tasks-windows-amd64.exe",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/tasks/0.1.0/anytext-tasks-windows-amd64.exe",
-              "sha256": "723a580e1cb3bb91afb26ab0016244980e504165582cf256b42796feaec0728b",
-              "size": 10019328
-            },
-            "darwin-arm64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/tasks/0.1.0/anytext-tasks-darwin-arm64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/tasks/0.1.0/anytext-tasks-darwin-arm64",
-              "sha256": "a295562e1e1aaaae0531ce9bcae5cf9b6251716af7438cced5cd917e296a3114",
-              "size": 9294386
-            },
-            "darwin-amd64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/tasks/0.1.0/anytext-tasks-darwin-amd64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/tasks/0.1.0/anytext-tasks-darwin-amd64",
-              "sha256": "d136e722095298558a4f1381e6535b799989bee27af18e8d761378e73a7333d4",
-              "size": 9964064
-            }
-          }
-        }
-      }
-    },
-    {
       "id": "calendar",
       "names": {
         "ru": "Календарь",
@@ -129,11 +13,11 @@
         "en": "The calendar mail-mcp already owns: a month, a week, a list and an event editor"
       },
       "category": "tools",
-      "repository": "kirill-scherba/anytext-calendar",
+      "repository": "https://github.com/kirill-scherba/anytext-calendar",
       "docs": "",
-      "latest": "0.1.2",
+      "latest": "0.1.3",
       "versions": {
-        "0.1.2": {
+        "0.1.3": {
           "addr": "127.0.0.1:7840",
           "args": [
             "-addr",
@@ -143,34 +27,29 @@
           "auto_start": true,
           "assets": {
             "linux-amd64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/calendar/0.1.2/anytext-calendar-linux-amd64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/calendar/0.1.2/anytext-calendar-linux-amd64",
-              "sha256": "dfa51a06d16c962471011f0378f778577233ead44dac77877f22102c6aad4914",
-              "size": 9789600
+              "url": "https://github.com/kirill-scherba/anytext-calendar/releases/download/v0.1.3/anytext-calendar-linux-amd64",
+              "sha256": "a27e8822ea7d813455d59eee8af59965472b57d440045003ad3a6f311e73de10",
+              "size": 9064610
             },
             "linux-arm64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/calendar/0.1.2/anytext-calendar-linux-arm64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/calendar/0.1.2/anytext-calendar-linux-arm64",
-              "sha256": "416cbb5c8c1378ae20ed48a648907d5cc0008a330b0f9a218b062a8c5e45ee22",
-              "size": 9109664
+              "url": "https://github.com/kirill-scherba/anytext-calendar/releases/download/v0.1.3/anytext-calendar-linux-arm64",
+              "sha256": "58ba582f51b919ccade4b069cc39361aa57ff15aab04d513e5fea4c504204e37",
+              "size": 8454306
             },
             "windows-amd64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/calendar/0.1.2/anytext-calendar-windows-amd64.exe",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/calendar/0.1.2/anytext-calendar-windows-amd64.exe",
-              "sha256": "b85cabcec9c3ea02952dc729ecdcb326c2b62e41b3e62f39260bd515d5263652",
-              "size": 10073600
+              "url": "https://github.com/kirill-scherba/anytext-calendar/releases/download/v0.1.3/anytext-calendar-windows-amd64.exe",
+              "sha256": "e3bc439260cfea400c09a8b49bcaeb4edd4236af755d49c760275d7d9363bbea",
+              "size": 9346048
             },
             "darwin-arm64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/calendar/0.1.2/anytext-calendar-darwin-arm64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/calendar/0.1.2/anytext-calendar-darwin-arm64",
-              "sha256": "f1c1f07aaa35336cf5c0d42c07443d585af0559c61030435eed4131daa9f0d33",
-              "size": 9345010
+              "url": "https://github.com/kirill-scherba/anytext-calendar/releases/download/v0.1.3/anytext-calendar-darwin-arm64",
+              "sha256": "68cac16694e9c35b0530c4c1fa59b90840ea9260de5de3457c6103a20c8ed092",
+              "size": 8659842
             },
             "darwin-amd64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/calendar/0.1.2/anytext-calendar-darwin-amd64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/calendar/0.1.2/anytext-calendar-darwin-amd64",
-              "sha256": "31f01ec03be76b0bfd2953077dc1b9ec6ac831e84a41f4c89a94f21202024db3",
-              "size": 10018400
+              "url": "https://github.com/kirill-scherba/anytext-calendar/releases/download/v0.1.3/anytext-calendar-darwin-amd64",
+              "sha256": "621b0dbd87b6fb078f3d5712d7d3945cb210fc4ef6482735056f14faf8efeb0b",
+              "size": 9285296
             }
           }
         }
@@ -187,11 +66,11 @@
         "en": "The collections and files of an installation: what is in the search, what was skipped and why"
       },
       "category": "tools",
-      "repository": "kirill-scherba/anytext-explorer",
+      "repository": "https://github.com/kirill-scherba/anytext-explorer",
       "docs": "",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "versions": {
-        "0.2.0": {
+        "0.2.2": {
           "addr": "127.0.0.1:7870",
           "args": [
             "-addr",
@@ -201,75 +80,135 @@
           "auto_start": true,
           "assets": {
             "linux-amd64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.0/anytext-explorer-linux-amd64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.0/anytext-explorer-linux-amd64",
-              "sha256": "c625d07b492e06cb9d85cb01a0b077830f5397f3983e89c72b0cfc74f6b5bc90",
-              "size": 9978016
+              "url": "https://github.com/kirill-scherba/anytext-explorer/releases/download/v0.2.2/anytext-explorer-linux-amd64",
+              "sha256": "4e205cb3720e9df5071dfb22c778fe6a6f56c2870dd80ca0ef8bb39505bba928",
+              "size": 14520221
             },
             "linux-arm64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.0/anytext-explorer-linux-arm64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.0/anytext-explorer-linux-arm64",
-              "sha256": "33cf1effdae35ae4ebd3e2de014d519f6bd6c23ad04ea1347258c7177ef70e2b",
-              "size": 9306272
+              "url": "https://github.com/kirill-scherba/anytext-explorer/releases/download/v0.2.2/anytext-explorer-linux-arm64",
+              "sha256": "6b02bd238c4f94fef3b8d67b1124ee148e1b53adb96f238664958c6884d54936",
+              "size": 13547946
             },
             "windows-amd64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.0/anytext-explorer-windows-amd64.exe",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.0/anytext-explorer-windows-amd64.exe",
-              "sha256": "6f63fa005857d46d26d43fa80fc33097d0a232a1766a1b44d91453bb5ed06c38",
-              "size": 10266112
+              "url": "https://github.com/kirill-scherba/anytext-explorer/releases/download/v0.2.2/anytext-explorer-windows-amd64.exe",
+              "sha256": "e238db8c403ac587ffa732159a281b25877e845e0f1dfeef83a0b84725ee23f6",
+              "size": 14712320
             },
             "darwin-arm64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.0/anytext-explorer-darwin-arm64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.0/anytext-explorer-darwin-arm64",
-              "sha256": "706e958ba6d0dbf9319e58b873f4e4627f2d745ebe78d0ed700c008d1ebb1b97",
-              "size": 9513346
-            },
-            "darwin-amd64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.0/anytext-explorer-darwin-amd64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.0/anytext-explorer-darwin-amd64",
-              "sha256": "149d4236807ad8093d0a18906d8f595255a9b17c3048ee2934b7bc7b7e6c3f11",
-              "size": 10210000
-            }
-          }
-        },
-        "0.2.1": {
-          "addr": "127.0.0.1:7870",
-          "args": [
-            "-addr",
-            "127.0.0.1:7870"
-          ],
-          "ui": "ui",
-          "auto_start": true,
-          "assets": {
-            "linux-amd64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.1/anytext-explorer-linux-amd64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.1/anytext-explorer-linux-amd64",
-              "sha256": "18a0ff3cef96f0009e820e97bc6d9a8b5ee6a227cb096367e9a318458ad7da8b",
-              "size": 14882210
-            },
-            "linux-arm64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.1/anytext-explorer-linux-arm64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.1/anytext-explorer-linux-arm64",
-              "sha256": "7b50141c81f6ac61a8ab3db34dd979c6db8a87f29d9d686aa2f25fbc64160223",
-              "size": 13932039
-            },
-            "windows-amd64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.1/anytext-explorer-windows-amd64.exe",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.1/anytext-explorer-windows-amd64.exe",
-              "sha256": "51662d9716a7293b7ba5bde0443e3f3c107d92e6f573f0cd599a413e2365d075",
-              "size": 15107584
-            },
-            "darwin-arm64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.1/anytext-explorer-darwin-arm64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.1/anytext-explorer-darwin-arm64",
-              "sha256": "46897c5b1b0583371da98c3b71d51f20551cecd7fef0521f1b2f1d0b1c069d9a",
+              "url": "https://github.com/kirill-scherba/anytext-explorer/releases/download/v0.2.2/anytext-explorer-darwin-arm64",
+              "sha256": "d08078737028dfd38c9907bfe8460195ab283a2b0c224ec1569e644e04de49ff",
               "size": 13942946
             },
             "darwin-amd64": {
-              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.1/anytext-explorer-darwin-amd64",
-              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.1/anytext-explorer-darwin-amd64",
-              "sha256": "334f59856a5ae8008e83510021350114fda9552f0be76233f02395e9979a5bc7",
+              "url": "https://github.com/kirill-scherba/anytext-explorer/releases/download/v0.2.2/anytext-explorer-darwin-amd64",
+              "sha256": "4c1f53adcb0798bcefef9da2985085a51138d3922677f420f134d19bd8ba8cdf",
               "size": 14854144
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "gallery",
+      "names": {
+        "ru": "Галерея",
+        "en": "Gallery"
+      },
+      "description": {
+        "ru": "Картинки, статьи и поиск по коллекциям установки",
+        "en": "Pictures, articles and search over the collections"
+      },
+      "category": "media",
+      "repository": "https://github.com/kirill-scherba/anytext-gallery",
+      "docs": "",
+      "latest": "0.6.7",
+      "versions": {
+        "0.6.7": {
+          "addr": "127.0.0.1:7860",
+          "args": [
+            "-addr",
+            "127.0.0.1:7860"
+          ],
+          "ui": "ui",
+          "auto_start": true,
+          "assets": {
+            "linux-amd64": {
+              "url": "https://github.com/kirill-scherba/anytext-gallery/releases/download/v0.6.7/anytext-gallery-linux-amd64",
+              "sha256": "db3432d2ad48d82f109c3f8ee2927c83fee8ed4f75892ee025dbb75b2a62de58",
+              "size": 10059938
+            },
+            "linux-arm64": {
+              "url": "https://github.com/kirill-scherba/anytext-gallery/releases/download/v0.6.7/anytext-gallery-linux-arm64",
+              "sha256": "b146874af798f2290477bcb9d88f4057f1a0613cf404d5fc8db2f9b89da2b007",
+              "size": 9371810
+            },
+            "windows-amd64": {
+              "url": "https://github.com/kirill-scherba/anytext-gallery/releases/download/v0.6.7/anytext-gallery-windows-amd64.exe",
+              "sha256": "e0a8610d14dd6b73324e69a8e1cf7eddde274bb49b71575bb8d8c9b2f37091ad",
+              "size": 10359296
+            },
+            "darwin-arm64": {
+              "url": "https://github.com/kirill-scherba/anytext-gallery/releases/download/v0.6.7/anytext-gallery-darwin-arm64",
+              "sha256": "a563c3871f4210d03a49db0a89eabfb2369e6697df44b16104e62c01b2cf39be",
+              "size": 9603394
+            },
+            "darwin-amd64": {
+              "url": "https://github.com/kirill-scherba/anytext-gallery/releases/download/v0.6.7/anytext-gallery-darwin-amd64",
+              "sha256": "35daed5fd51959de304ce07ae32f38d4cdff0283233a2d2c5a27b34b879ee512",
+              "size": 10295264
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "tasks",
+      "names": {
+        "ru": "Задачи",
+        "en": "Tasks"
+      },
+      "description": {
+        "ru": "Расписание установки: что запланировано, когда сработает и что вышло",
+        "en": "The installation's schedule: what is planned, when it runs and what came out"
+      },
+      "category": "tools",
+      "repository": "https://github.com/kirill-scherba/anytext-tasks",
+      "docs": "",
+      "latest": "0.1.1",
+      "versions": {
+        "0.1.1": {
+          "addr": "127.0.0.1:7850",
+          "args": [
+            "-addr",
+            "127.0.0.1:7850"
+          ],
+          "ui": "ui",
+          "auto_start": true,
+          "assets": {
+            "linux-amd64": {
+              "url": "https://github.com/kirill-scherba/anytext-tasks/releases/download/v0.1.1/anytext-tasks-linux-amd64",
+              "sha256": "70db559291bb6a2b3511410f275a1ebfe499d14b12fde209898892eb03b60aeb",
+              "size": 9015458
+            },
+            "linux-arm64": {
+              "url": "https://github.com/kirill-scherba/anytext-tasks/releases/download/v0.1.1/anytext-tasks-linux-arm64",
+              "sha256": "8ef5f4bcab8495f907b0d2ee1a3452cd6982a09251b147afd3f81c4a5c6f8e3f",
+              "size": 8388770
+            },
+            "windows-amd64": {
+              "url": "https://github.com/kirill-scherba/anytext-tasks/releases/download/v0.1.1/anytext-tasks-windows-amd64.exe",
+              "sha256": "7e1511bca82dc87d9ed50a2d270d2fb52b53fd77ba5eb6fb2b6620904bd238ee",
+              "size": 9296384
+            },
+            "darwin-arm64": {
+              "url": "https://github.com/kirill-scherba/anytext-tasks/releases/download/v0.1.1/anytext-tasks-darwin-arm64",
+              "sha256": "5410a35ada54c5f6113d8a32abe0722e74932ed738765df81ab19a9d1823ee95",
+              "size": 8625794
+            },
+            "darwin-amd64": {
+              "url": "https://github.com/kirill-scherba/anytext-tasks/releases/download/v0.1.1/anytext-tasks-darwin-amd64",
+              "sha256": "a748c40df8a09e1a8ce1c33b3bd460633db754323a5511a1321d50fb40d5d1b5",
+              "size": 9231024
             }
           }
         }

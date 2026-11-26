@@ -1,0 +1,46 @@
+# catalog — rebuild catalog.json from the modules' own declarations and their releases.
+#
+# The module repositories build and publish on a v* tag (their own release.yml). This job reads their
+# module.json and the assets of the newest release, and writes the catalogue. Nothing is typed by hand,
+# so an entry always describes bytes that exist, with the checksum the release carries.
+#
+# Runs: on demand (after a release, one button), daily (a release nobody announced), and when the
+# builder or the list of repositories changes.
+name: catalog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 4 * * *'   # once a day, early enough that a release is in the catalogue before work
+  push:
+    branches: [main]
+    paths:
+      - 'sources.json'
+      - 'build_catalog.py'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 build_catalog.py
+
+      - name: Commit when changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet catalog.json; then
+            echo "catalog unchanged"
+            exit 0
+          fi
+          git config user.name "catalog-bot"
+          git config user.email "catalog@matrica.work"
+          git add catalog.json
+          git commit -m "catalog: rebuilt from the modules' declarations and releases"
+          git push
