@@ -189,7 +189,7 @@
       "category": "tools",
       "repository": "kirill-scherba/anytext-explorer",
       "docs": "",
-      "latest": "0.2.0",
+      "latest": "0.2.1",
       "versions": {
         "0.2.0": {
           "addr": "127.0.0.1:7870",
@@ -229,6 +229,47 @@
               "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.0/anytext-explorer-darwin-amd64",
               "sha256": "149d4236807ad8093d0a18906d8f595255a9b17c3048ee2934b7bc7b7e6c3f11",
               "size": 10210000
+            }
+          }
+        },
+        "0.2.1": {
+          "addr": "127.0.0.1:7870",
+          "args": [
+            "-addr",
+            "127.0.0.1:7870"
+          ],
+          "ui": "ui",
+          "auto_start": true,
+          "assets": {
+            "linux-amd64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.1/anytext-explorer-linux-amd64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.1/anytext-explorer-linux-amd64",
+              "sha256": "18a0ff3cef96f0009e820e97bc6d9a8b5ee6a227cb096367e9a318458ad7da8b",
+              "size": 14882210
+            },
+            "linux-arm64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.1/anytext-explorer-linux-arm64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.1/anytext-explorer-linux-arm64",
+              "sha256": "7b50141c81f6ac61a8ab3db34dd979c6db8a87f29d9d686aa2f25fbc64160223",
+              "size": 13932039
+            },
+            "windows-amd64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.1/anytext-explorer-windows-amd64.exe",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.1/anytext-explorer-windows-amd64.exe",
+              "sha256": "51662d9716a7293b7ba5bde0443e3f3c107d92e6f573f0cd599a413e2365d075",
+              "size": 15107584
+            },
+            "darwin-arm64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.1/anytext-explorer-darwin-arm64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.1/anytext-explorer-darwin-arm64",
+              "sha256": "46897c5b1b0583371da98c3b71d51f20551cecd7fef0521f1b2f1d0b1c069d9a",
+              "size": 13942946
+            },
+            "darwin-amd64": {
+              "url": "https://relay.anytext.teonet.dev/download/modules/explorer/0.2.1/anytext-explorer-darwin-amd64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/explorer/0.2.1/anytext-explorer-darwin-amd64",
+              "sha256": "334f59856a5ae8008e83510021350114fda9552f0be76233f02395e9979a5bc7",
+              "size": 14854144
             }
           }
         }

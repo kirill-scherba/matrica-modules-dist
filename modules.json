@@ -6,7 +6,10 @@
       "id": "gallery",
       "repo": "~/go/src/github.com/kirill-scherba/anytext-gallery",
       "bin": "anytext-gallery",
-      "names": { "ru": "Галерея", "en": "Gallery" },
+      "names": {
+        "ru": "Галерея",
+        "en": "Gallery"
+      },
       "description": {
         "ru": "Картинки, статьи и поиск по коллекциям установки",
         "en": "Pictures, articles and search over the collections"
@@ -14,7 +17,10 @@
       "category": "media",
       "repository": "kirill-scherba/anytext-gallery",
       "addr": "127.0.0.1:7860",
-      "args": ["-addr", "127.0.0.1:7860"],
+      "args": [
+        "-addr",
+        "127.0.0.1:7860"
+      ],
       "ui": "ui",
       "auto_start": true
     },
@@ -22,7 +28,10 @@
       "id": "tasks",
       "repo": "~/go/src/github.com/kirill-scherba/anytext-tasks",
       "bin": "anytext-tasks",
-      "names": { "ru": "Задачи", "en": "Tasks" },
+      "names": {
+        "ru": "Задачи",
+        "en": "Tasks"
+      },
       "description": {
         "ru": "Расписание установки: что запланировано, когда сработает и что вышло",
         "en": "The installation's schedule: what is planned, when it runs and what came out"
@@ -30,7 +39,10 @@
       "category": "tools",
       "repository": "kirill-scherba/anytext-tasks",
       "addr": "127.0.0.1:7850",
-      "args": ["-addr", "127.0.0.1:7850"],
+      "args": [
+        "-addr",
+        "127.0.0.1:7850"
+      ],
       "ui": "ui",
       "auto_start": true
     },
@@ -38,7 +50,10 @@
       "id": "calendar",
       "repo": "~/go/src/github.com/kirill-scherba/anytext-calendar",
       "bin": "anytext-calendar",
-      "names": { "ru": "Календарь", "en": "Calendar" },
+      "names": {
+        "ru": "Календарь",
+        "en": "Calendar"
+      },
       "description": {
         "ru": "Календарь из mail-mcp: месяц, неделя, список и редактор событий",
         "en": "The calendar mail-mcp already owns: a month, a week, a list and an event editor"
@@ -46,7 +61,10 @@
       "category": "tools",
       "repository": "kirill-scherba/anytext-calendar",
       "addr": "127.0.0.1:7840",
-      "args": ["-addr", "127.0.0.1:7840"],
+      "args": [
+        "-addr",
+        "127.0.0.1:7840"
+      ],
       "ui": "ui",
       "auto_start": true
     },
@@ -54,7 +72,10 @@
       "id": "explorer",
       "repo": "~/go/src/github.com/kirill-scherba/anytext-explorer",
       "bin": "anytext-explorer",
-      "names": { "ru": "Проводник", "en": "Files" },
+      "names": {
+        "ru": "Проводник",
+        "en": "Files"
+      },
       "description": {
         "ru": "Коллекции и файлы установки: что в поиске, что пропущено и почему",
         "en": "The collections and files of an installation: what is in the search, what was skipped and why"
@@ -62,9 +83,14 @@
       "category": "tools",
       "repository": "kirill-scherba/anytext-explorer",
       "addr": "127.0.0.1:7870",
-      "args": ["-addr", "127.0.0.1:7870"],
+      "args": [
+        "-addr",
+        "127.0.0.1:7870"
+      ],
       "ui": "ui",
-      "auto_start": true
+      "auto_start": true,
+      "strip": false,
+      "comment": "not stripped: -s -w with -trimpath trips Defender's ML verdict for this binary"
     }
   ]
 }

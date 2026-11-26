@@ -58,8 +58,15 @@ def build(module, platforms):
         goos, goarch = platform.split("-")
         name = asset_name(module["bin"], platform)
         env = dict(os.environ, CGO_ENABLED="0", GOOS=goos, GOARCH=goarch)
+        # Stripping is optional per module: -s -w together with -trimpath made the explorer binary
+        # light up Windows Defender's ML heuristic (Trojan:Win32/Bearfoos.A!ml) while either flag
+        # alone did not - measured by scanning four builds of the same source on the machine
+        # (26.11.2026). A build that a person cannot install is worth nobody's five megabytes.
+        flags = ["-trimpath"]
+        if module.get("strip", True):
+            flags += ["-ldflags", "-s -w"]
         subprocess.run(
-            ["go", "build", "-trimpath", "-ldflags", "-s -w", "-o", os.path.join(dist, name), "."],
+            ["go", "build"] + flags + ["-o", os.path.join(dist, name), "."],
             cwd=repo, env=env, check=True,
         )
         size = os.path.getsize(os.path.join(dist, name))
