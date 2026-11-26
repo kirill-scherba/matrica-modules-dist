@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "updated": "2026-11-26",
+  "modules": [
+    {
+      "id": "gallery",
+      "names": {
+        "ru": "Галерея",
+        "en": "Gallery"
+      },
+      "description": {
+        "ru": "Картинки, статьи и поиск по коллекциям установки",
+        "en": "Pictures, articles and search over the collections"
+      },
+      "category": "media",
+      "repository": "kirill-scherba/anytext-gallery",
+      "docs": "",
+      "latest": "0.6.6",
+      "versions": {
+        "0.6.6": {
+          "addr": "127.0.0.1:7860",
+          "args": [
+            "-addr",
+            "127.0.0.1:7860"
+          ],
+          "ui": "ui",
+          "auto_start": true,
+          "assets": {
+            "linux-amd64": {
+              "url": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/gallery/0.6.6/anytext-gallery-linux-amd64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/gallery/0.6.6/anytext-gallery-linux-amd64",
+              "sha256": "41a651c2b4bff2db1e43beff45711940de4884124cb03d882dc09c0d851b4c72",
+              "size": 10760352
+            },
+            "linux-arm64": {
+              "url": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/gallery/0.6.6/anytext-gallery-linux-arm64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/gallery/0.6.6/anytext-gallery-linux-arm64",
+              "sha256": "1059c77a2a0dc73620f891b8646270ae88f4f23883d4046c89bd76d54d23c43c",
+              "size": 9961632
+            },
+            "windows-amd64": {
+              "url": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/gallery/0.6.6/anytext-gallery-windows-amd64.exe",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/gallery/0.6.6/anytext-gallery-windows-amd64.exe",
+              "sha256": "7bc0d60f0208d065c96df605d321be9e7ae3b267f3f63a2fc88031b76673a95a",
+              "size": 11063296
+            },
+            "darwin-arm64": {
+              "url": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/gallery/0.6.6/anytext-gallery-darwin-arm64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/gallery/0.6.6/anytext-gallery-darwin-arm64",
+              "sha256": "a05d6e4508fb0b7efeaa9370a5c71a04a1cc871b1c183b44148d53ab45936662",
+              "size": 10271698
+            },
+            "darwin-amd64": {
+              "url": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/gallery/0.6.6/anytext-gallery-darwin-amd64",
+              "direct": "https://storage.googleapis.com/cooksy-ea86d-anytext-releases/modules/gallery/0.6.6/anytext-gallery-darwin-amd64",
+              "sha256": "761f17c72d6c481ca634c546bf4dbf6d82de8f7d1829f5403c5e8106691aa15e",
+              "size": 11011632
+            }
+          }
+        }
+      }
+    }
+  ]
+}
