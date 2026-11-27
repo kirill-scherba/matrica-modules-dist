@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "modules": [
     {
       "id": "calendar",
@@ -156,59 +156,6 @@
               "url": "https://github.com/kirill-scherba/anytext-gallery/releases/download/v0.6.7/anytext-gallery-darwin-amd64",
               "sha256": "35daed5fd51959de304ce07ae32f38d4cdff0283233a2d2c5a27b34b879ee512",
               "size": 10295264
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": "tasks",
-      "names": {
-        "ru": "Задачи",
-        "en": "Tasks"
-      },
-      "description": {
-        "ru": "Расписание установки: что запланировано, когда сработает и что вышло",
-        "en": "The installation's schedule: what is planned, when it runs and what came out"
-      },
-      "category": "tools",
-      "repository": "https://github.com/kirill-scherba/anytext-tasks",
-      "docs": "",
-      "latest": "0.1.1",
-      "versions": {
-        "0.1.1": {
-          "addr": "127.0.0.1:7850",
-          "args": [
-            "-addr",
-            "127.0.0.1:7850"
-          ],
-          "ui": "ui",
-          "auto_start": true,
-          "assets": {
-            "linux-amd64": {
-              "url": "https://github.com/kirill-scherba/anytext-tasks/releases/download/v0.1.1/anytext-tasks-linux-amd64",
-              "sha256": "70db559291bb6a2b3511410f275a1ebfe499d14b12fde209898892eb03b60aeb",
-              "size": 9015458
-            },
-            "linux-arm64": {
-              "url": "https://github.com/kirill-scherba/anytext-tasks/releases/download/v0.1.1/anytext-tasks-linux-arm64",
-              "sha256": "8ef5f4bcab8495f907b0d2ee1a3452cd6982a09251b147afd3f81c4a5c6f8e3f",
-              "size": 8388770
-            },
-            "windows-amd64": {
-              "url": "https://github.com/kirill-scherba/anytext-tasks/releases/download/v0.1.1/anytext-tasks-windows-amd64.exe",
-              "sha256": "7e1511bca82dc87d9ed50a2d270d2fb52b53fd77ba5eb6fb2b6620904bd238ee",
-              "size": 9296384
-            },
-            "darwin-arm64": {
-              "url": "https://github.com/kirill-scherba/anytext-tasks/releases/download/v0.1.1/anytext-tasks-darwin-arm64",
-              "sha256": "5410a35ada54c5f6113d8a32abe0722e74932ed738765df81ab19a9d1823ee95",
-              "size": 8625794
-            },
-            "darwin-amd64": {
-              "url": "https://github.com/kirill-scherba/anytext-tasks/releases/download/v0.1.1/anytext-tasks-darwin-amd64",
-              "sha256": "a748c40df8a09e1a8ce1c33b3bd460633db754323a5511a1321d50fb40d5d1b5",
-              "size": 9231024
             }
           }
         }
