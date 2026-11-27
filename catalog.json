@@ -174,9 +174,9 @@
       "category": "tools",
       "repository": "https://github.com/kirill-scherba/anytext-goals",
       "docs": "",
-      "latest": "0.1.4",
+      "latest": "0.1.5",
       "versions": {
-        "0.1.4": {
+        "0.1.5": {
           "addr": "127.0.0.1:7880",
           "args": [
             "-addr",
@@ -186,28 +186,28 @@
           "auto_start": true,
           "assets": {
             "linux-amd64": {
-              "url": "https://github.com/kirill-scherba/anytext-goals/releases/download/v0.1.4/anytext-goals-linux-amd64",
-              "sha256": "8ec04e219cee5a4a4e9be703d5c5d4162a476ff676ffd67fb1e5fa4e7063d376",
+              "url": "https://github.com/kirill-scherba/anytext-goals/releases/download/v0.1.5/anytext-goals-linux-amd64",
+              "sha256": "85aac22796bad3971912eeb16b921b238cdc272ae20b9e80d2acb7f06cd8e706",
               "size": 9027746
             },
             "linux-arm64": {
-              "url": "https://github.com/kirill-scherba/anytext-goals/releases/download/v0.1.4/anytext-goals-linux-arm64",
-              "sha256": "ed04c76fbecd09fc5a895c7b81792206e06951686741e6e9920c30124decfeed",
+              "url": "https://github.com/kirill-scherba/anytext-goals/releases/download/v0.1.5/anytext-goals-linux-arm64",
+              "sha256": "d94204e482f57044e4f18e23bfbc0906b4a611d100db98a46ffe79fb114cdde0",
               "size": 8388770
             },
             "windows-amd64": {
-              "url": "https://github.com/kirill-scherba/anytext-goals/releases/download/v0.1.4/anytext-goals-windows-amd64.exe",
-              "sha256": "e84dc2f3e2baa47170562b62d575fe09a8a3a407286ee02b7a271aa3fb0716e1",
-              "size": 9309184
+              "url": "https://github.com/kirill-scherba/anytext-goals/releases/download/v0.1.5/anytext-goals-windows-amd64.exe",
+              "sha256": "1c1c4ab39d9a579dc2e04ab7f61b79919759528a9c1e93e816a46f12c3cb68a6",
+              "size": 9311232
             },
             "darwin-arm64": {
-              "url": "https://github.com/kirill-scherba/anytext-goals/releases/download/v0.1.4/anytext-goals-darwin-arm64",
-              "sha256": "d6bb6b5b953aabada4cb7640c8bfdcd7124fb1c82973aa2f6819ecafc86f72ba",
+              "url": "https://github.com/kirill-scherba/anytext-goals/releases/download/v0.1.5/anytext-goals-darwin-arm64",
+              "sha256": "25b87b8484410bda6280e1cf48f815ed167d8ef3b326d5bf03b4e85c6648e8e7",
               "size": 8642754
             },
             "darwin-amd64": {
-              "url": "https://github.com/kirill-scherba/anytext-goals/releases/download/v0.1.4/anytext-goals-darwin-amd64",
-              "sha256": "f0fe13de0355a253e98e009b0ea6d8e0a79231bfcf9f843eb6fd7e3e6ba4ad99",
+              "url": "https://github.com/kirill-scherba/anytext-goals/releases/download/v0.1.5/anytext-goals-darwin-amd64",
+              "sha256": "a4e8e68e254df4ab82f409ba6308e904f7e9774c1c7ae42b7a636e1662601dfd",
               "size": 9247872
             }
           },
