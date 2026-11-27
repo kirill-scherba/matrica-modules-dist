@@ -160,6 +160,59 @@
           }
         }
       }
+    },
+    {
+      "id": "schedule",
+      "names": {
+        "ru": "Расписание",
+        "en": "Schedule"
+      },
+      "description": {
+        "ru": "Расписание установки: что запланировано, когда сработает и что вышло",
+        "en": "The installation's schedule: what is planned, when it runs and what came out"
+      },
+      "category": "tools",
+      "repository": "https://github.com/kirill-scherba/anytext-schedule",
+      "docs": "",
+      "latest": "0.1.2",
+      "versions": {
+        "0.1.2": {
+          "addr": "127.0.0.1:7850",
+          "args": [
+            "-addr",
+            "127.0.0.1:7850"
+          ],
+          "ui": "ui",
+          "auto_start": true,
+          "assets": {
+            "linux-amd64": {
+              "url": "https://github.com/kirill-scherba/anytext-schedule/releases/download/v0.1.2/anytext-schedule-linux-amd64",
+              "sha256": "3457dbf56e0cbfd34c0e8698218fc3e1f5f6535cc043c7c9197782b48c4d1d0c",
+              "size": 9015458
+            },
+            "linux-arm64": {
+              "url": "https://github.com/kirill-scherba/anytext-schedule/releases/download/v0.1.2/anytext-schedule-linux-arm64",
+              "sha256": "be626a5be6afa5f95c645a8df4157c87bda870327edf21f72fbab90a12019237",
+              "size": 8388770
+            },
+            "windows-amd64": {
+              "url": "https://github.com/kirill-scherba/anytext-schedule/releases/download/v0.1.2/anytext-schedule-windows-amd64.exe",
+              "sha256": "2aa09d8cfa0ae5234044166e404780a790826cc121294723347f6f7141195a49",
+              "size": 9296384
+            },
+            "darwin-arm64": {
+              "url": "https://github.com/kirill-scherba/anytext-schedule/releases/download/v0.1.2/anytext-schedule-darwin-arm64",
+              "sha256": "67642552dd84b72a9a48c6b1ac606bd91e9d88813af15824a0a6762e046bc8c5",
+              "size": 8625794
+            },
+            "darwin-amd64": {
+              "url": "https://github.com/kirill-scherba/anytext-schedule/releases/download/v0.1.2/anytext-schedule-darwin-amd64",
+              "sha256": "718560b3e60534468ddb5e3577634e405f569986e3a77de90c398f6134e118d3",
+              "size": 9231024
+            }
+          }
+        }
+      }
     }
   ]
 }
