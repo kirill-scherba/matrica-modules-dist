@@ -1,9 +1,17 @@
 {
   "_comment": "Which repositories publish modules for this catalogue. A repository declares its module in module.json at its root; the version comes from its newest release, tagged v<version>.",
   "repos": [
-    { "repo": "kirill-scherba/anytext-gallery" },
-    { "repo": "kirill-scherba/anytext-tasks" },
-    { "repo": "kirill-scherba/anytext-calendar" },
-    { "repo": "kirill-scherba/anytext-explorer" }
+    {
+      "repo": "kirill-scherba/anytext-gallery"
+    },
+    {
+      "repo": "kirill-scherba/anytext-schedule"
+    },
+    {
+      "repo": "kirill-scherba/anytext-calendar"
+    },
+    {
+      "repo": "kirill-scherba/anytext-explorer"
+    }
   ]
 }
