@@ -100,6 +100,17 @@ def build():
         assets = collect_assets(release, manifest, version)
         if not assets:
             continue
+        version_entry = {
+            "addr": manifest["addr"],
+            "args": manifest.get("args") or [],
+            "ui": manifest.get("ui", "ui"),
+            "auto_start": bool(manifest.get("auto_start")),
+            "assets": assets,
+        }
+        # A module that offers the agent tools names its MCP endpoint here; without the field the
+        # installation would never register it, and the tools would exist for nobody (27.11.2026).
+        if manifest.get("mcp"):
+            version_entry["mcp"] = manifest["mcp"]
         modules.append({
             "id": manifest["id"],
             "names": manifest.get("names") or {},
@@ -108,15 +119,7 @@ def build():
             "repository": f"https://github.com/{repo}",
             "docs": manifest.get("docs", ""),
             "latest": version,
-            "versions": {
-                version: {
-                    "addr": manifest["addr"],
-                    "args": manifest.get("args") or [],
-                    "ui": manifest.get("ui", "ui"),
-                    "auto_start": bool(manifest.get("auto_start")),
-                    "assets": assets,
-                }
-            },
+            "versions": {version: version_entry},
         })
 
     modules.sort(key=lambda m: m["id"])
