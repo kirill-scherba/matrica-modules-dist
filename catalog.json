@@ -162,6 +162,59 @@
       }
     },
     {
+      "id": "goals",
+      "names": {
+        "ru": "Цели",
+        "en": "Goals"
+      },
+      "description": {
+        "ru": "Цели установки и дела, которые их двигают: прогресс, сроки и короткий список на сегодня",
+        "en": "The installation's goals and the deeds that move them: progress, deadlines and today's list"
+      },
+      "category": "tools",
+      "repository": "https://github.com/kirill-scherba/anytext-goals",
+      "docs": "",
+      "latest": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "addr": "127.0.0.1:7880",
+          "args": [
+            "-addr",
+            "127.0.0.1:7880"
+          ],
+          "ui": "ui",
+          "auto_start": true,
+          "assets": {
+            "linux-amd64": {
+              "url": "https://github.com/kirill-scherba/anytext-goals/releases/download/v0.1.0/anytext-goals-linux-amd64",
+              "sha256": "8ff74470e4880df610354a16f64ed1a58f012e833bf4f5ddc7a6ce15c0a42915",
+              "size": 6815906
+            },
+            "linux-arm64": {
+              "url": "https://github.com/kirill-scherba/anytext-goals/releases/download/v0.1.0/anytext-goals-linux-arm64",
+              "sha256": "1686875e703adca5af09d8c9e97ddffc37913eb4e8fdc01dae61d3d890da7226",
+              "size": 6357154
+            },
+            "windows-amd64": {
+              "url": "https://github.com/kirill-scherba/anytext-goals/releases/download/v0.1.0/anytext-goals-windows-amd64.exe",
+              "sha256": "91272d682b6fdae43f11efe61951235453fe7cf0c545c67d079bb24f6edf44ac",
+              "size": 7001600
+            },
+            "darwin-arm64": {
+              "url": "https://github.com/kirill-scherba/anytext-goals/releases/download/v0.1.0/anytext-goals-darwin-arm64",
+              "sha256": "4554224eddc9abe5e3b9b860f4564ea5303e40018bd9d9010507d701b6287bac",
+              "size": 6444882
+            },
+            "darwin-amd64": {
+              "url": "https://github.com/kirill-scherba/anytext-goals/releases/download/v0.1.0/anytext-goals-darwin-amd64",
+              "sha256": "2d6e13a302c5191ba3fac6741b295b867025de93ae93be52ddc2e781622ed84e",
+              "size": 6948224
+            }
+          }
+        }
+      }
+    },
+    {
       "id": "schedule",
       "names": {
         "ru": "Расписание",
