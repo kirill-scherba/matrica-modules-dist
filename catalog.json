@@ -68,9 +68,9 @@
       "category": "tools",
       "repository": "https://github.com/kirill-scherba/anytext-explorer",
       "docs": "",
-      "latest": "0.2.2",
+      "latest": "0.2.3",
       "versions": {
-        "0.2.2": {
+        "0.2.3": {
           "addr": "127.0.0.1:7870",
           "args": [
             "-addr",
@@ -80,29 +80,29 @@
           "auto_start": true,
           "assets": {
             "linux-amd64": {
-              "url": "https://github.com/kirill-scherba/anytext-explorer/releases/download/v0.2.2/anytext-explorer-linux-amd64",
-              "sha256": "4e205cb3720e9df5071dfb22c778fe6a6f56c2870dd80ca0ef8bb39505bba928",
-              "size": 14520221
+              "url": "https://github.com/kirill-scherba/anytext-explorer/releases/download/v0.2.3/anytext-explorer-linux-amd64",
+              "sha256": "1934ef3888491dae3de06b1c76818d8b87736803cb674a9b3881fded40df922b",
+              "size": 14528389
             },
             "linux-arm64": {
-              "url": "https://github.com/kirill-scherba/anytext-explorer/releases/download/v0.2.2/anytext-explorer-linux-arm64",
-              "sha256": "6b02bd238c4f94fef3b8d67b1124ee148e1b53adb96f238664958c6884d54936",
+              "url": "https://github.com/kirill-scherba/anytext-explorer/releases/download/v0.2.3/anytext-explorer-linux-arm64",
+              "sha256": "e96620791f03af6283c12c125fc12ebdd9b791a6002db0c07e3e278dbd413724",
               "size": 13547946
             },
             "windows-amd64": {
-              "url": "https://github.com/kirill-scherba/anytext-explorer/releases/download/v0.2.2/anytext-explorer-windows-amd64.exe",
-              "sha256": "e238db8c403ac587ffa732159a281b25877e845e0f1dfeef83a0b84725ee23f6",
-              "size": 14712320
+              "url": "https://github.com/kirill-scherba/anytext-explorer/releases/download/v0.2.3/anytext-explorer-windows-amd64.exe",
+              "sha256": "1b58a5fcd565f5fb509a11e85f6f7f37ac9d4c36f41458cdeffe00f4916c88f1",
+              "size": 14720512
             },
             "darwin-arm64": {
-              "url": "https://github.com/kirill-scherba/anytext-explorer/releases/download/v0.2.2/anytext-explorer-darwin-arm64",
-              "sha256": "d08078737028dfd38c9907bfe8460195ab283a2b0c224ec1569e644e04de49ff",
-              "size": 13942946
+              "url": "https://github.com/kirill-scherba/anytext-explorer/releases/download/v0.2.3/anytext-explorer-darwin-arm64",
+              "sha256": "febbad10aa41cc5678971e71134c40e9de9fe5f7199da99787df99fbd9e5bcc7",
+              "size": 13959458
             },
             "darwin-amd64": {
-              "url": "https://github.com/kirill-scherba/anytext-explorer/releases/download/v0.2.2/anytext-explorer-darwin-amd64",
-              "sha256": "4c1f53adcb0798bcefef9da2985085a51138d3922677f420f134d19bd8ba8cdf",
-              "size": 14854144
+              "url": "https://github.com/kirill-scherba/anytext-explorer/releases/download/v0.2.3/anytext-explorer-darwin-amd64",
+              "sha256": "0cbe917984b227c68c12cba3391e87edd3f2577c59d40fbd958ac1b818de0736",
+              "size": 14862336
             }
           }
         }
